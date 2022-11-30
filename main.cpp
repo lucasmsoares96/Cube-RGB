@@ -218,15 +218,15 @@ int main()
 
 	float vertices[] = {
         // positions          // texture coords
-         0.5f,  0.5f, 0.5f,   1.0f, 0.0f, // 0-top right
-         0.5f, -0.5f, 0.5f,   0.0f, 0.0f, // 1-bottom right
+         0.5f,  0.5f, 0.5f,   1.0f, 1.0f, // 0-top right
+         0.5f, -0.5f, 0.5f,   1.0f, 0.0f, // 1-bottom right
         -0.5f, -0.5f, 0.5f,   0.0f, 0.0f, // 2-bottom left
-        -0.5f,  0.5f, 0.5f,   0.0f, 0.0f, // 3-top left 
+        -0.5f,  0.5f, 0.5f,   0.0f, 1.0f, // 3-top left 
 
-         0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // 4-top right
-         0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // 5-bottom right
-        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // 6-bottom left
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f  // 7-top left 
+         0.5f,  0.5f, -0.5f,  0.0f, 0.0f, // 4-top right
+         0.5f, -0.5f, -0.5f,  0.0f, 1.0f, // 5-bottom right
+        -0.5f, -0.5f, -0.5f,  1.0f, 1.0f, // 6-bottom left
+        -0.5f,  0.5f, -0.5f,  1.0f, 0.0f  // 7-top left 
     };
     unsigned int indices[] = {  
 		// front
