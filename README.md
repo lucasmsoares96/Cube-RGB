@@ -1,8 +1,8 @@
 # Cube-RGB
 
-<div style="text-align: center;">
+<p align="center">
   <img style="text-align: center;" height="250px" src="./Images/Result.png" alt="Alt text">
-</div>
+</p>
 
 ## What is it?
 
