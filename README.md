@@ -29,9 +29,9 @@ Generate the Makefile
 cmake -H. -BBuild -DCMAKE_RUNTIME_OUTPUT_DIRECTORY=./Bin
 ```
 
-- `-H.` Procura pelo CMakeLists.txt no diretório autal
--  `-BBuild` Cola o Makefile gerado dentro da pasta Build
-- `-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=./Bin` Adiciona o executável final para a pasta ./Build./Bin
+- `-H.` Look for CMakeLists.txt in the current directory
+- `-BBuild` Paste the generated Makefile inside the Build folder
+- `-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=./Bin` Adds the final executable to the ./Build./Bin folder
 
 Finally, compile and run the program.
 
