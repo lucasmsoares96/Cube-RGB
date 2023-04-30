@@ -4,7 +4,7 @@
   <img style="text-align: center;" height="250px" src="./Images/Result.png" alt="Alt text">
 </p>
 
-## What is it?
+## Introduction
 
 This repository contains an RGB cube designed with OpenGL, C++ and CMake
 
@@ -20,7 +20,7 @@ Each Vertex of this cube has a unique combination of 0s and 1s that form the col
 First check if the dependencies are installed
 
 ```bash
-sudo nala install freeglut3 freeglut3-dev libglfw3-dev libglm-dev libglew-dev libstb-dev libglm-doc
+sudo nala install libglfw3-dev libglm-dev libglew-dev libstb-dev libglm-doc
 ```
 
 Generate the Makefile
